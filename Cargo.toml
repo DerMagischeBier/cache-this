@@ -1,0 +1,16 @@
+[package]
+name = "cache-this"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kai Frerich"]
+description = "Macro for simple caching of expression using the file system"
+homepage = "https://github.com/DerMagischeBier/cache-this"
+license = "MIT"
+repository = "https://github.com/DerMagischeBier/cache-this"
+
+[dependencies]
+cache-this-proc-macro = { path = "src/proc-macro" }
+serde_json = "1.0"
+
+[workspace]
+members = ["src/proc-macro"]
