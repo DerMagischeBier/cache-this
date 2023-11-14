@@ -15,6 +15,8 @@
 
  ## Example
  ```rust
+use cache_this::cache_this;
+
 fn main() {
     // `some_long_running_function` will be executed here once
     let result = cache_this!(some_long_running_function());
