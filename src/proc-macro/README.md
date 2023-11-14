@@ -1,0 +1,1 @@
+Proc macro implementation for easy caching of expression using the local file system. It is recommended to us the parent crate `cache_this` to not include `serde_json` as user. 

@@ -3,7 +3,7 @@ name = "cache-this-proc-macro"
 version = "0.1.0"
 edition = "2021"
 authors = ["Kai Frerich"]
-description = "Macro for simple caching of expression using the file system"
+description = "Proc macro implementation for simple caching of expression using the file system"
 readme = "README.md"
 
 [lib]
