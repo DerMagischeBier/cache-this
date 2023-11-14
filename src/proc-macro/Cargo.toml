@@ -5,6 +5,9 @@ edition = "2021"
 authors = ["Kai Frerich"]
 description = "Proc macro implementation for simple caching of expression using the file system"
 readme = "README.md"
+homepage = "https://github.com/DerMagischeBier/cache-this"
+license = "MIT"
+repository = "https://github.com/DerMagischeBier/cache-this"
 
 [lib]
 proc-macro = true
