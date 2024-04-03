@@ -7,7 +7,7 @@
  Results are even cached in between program execution enabling rapid prototyping by getting rid
  of long execution times per iteration.
 
- Expression are cache by their token representation. `cache_this!` does not recognize changes to
+ Expressions are cached by their token representation. `cache_this!` does not recognize changes to
  expression results. To remove the cached values delete the `.cache-this` folder.
 
  Note that, for serializing and deserializing `cache_this!` relies on `serde_json`. Thus,
