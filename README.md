@@ -4,7 +4,7 @@
  the `cache_this` macro will be executed only if no cached result is already locally present. If
  no result is present, yet it will be saved to the local file system and subsequently used.
 
- Results are even cached in between program execution enabling raping prototyping by getting rid
+ Results are even cached in between program execution enabling rapid prototyping by getting rid
  of long execution times per iteration.
 
  Expression are cache by their token representation. `cache_this!` does not recognize changes to
